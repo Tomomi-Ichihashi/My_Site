@@ -30,3 +30,26 @@ img {
 .heading > :first-child {
   margin-right: auto;
 }
+
+.main-visual {
+  height: 650px;
+  background-image: url(./img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  text-align: center;
+}
+
+.main-visual-title {
+  padding-top: 200px;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-visual-text {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
