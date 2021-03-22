@@ -53,3 +53,68 @@ img {
   font-size: 20px;
   color: #fafafa;
 }
+
+.main-content1 {
+  background-color: #eceff1;
+}
+
+.portfolio {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.main-content1 h4 {
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  border-bottom: solid 3px #ec715f;
+}
+
+.main-content1 p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.image-list {
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-list > :first-child {
+  background-image: url(./img/sketch.jpg);
+}
+
+.image-list > :nth-child(2) {
+  margin: 0 10px 10px 10px;
+  background-image: url(./img/websuku.png);
+}
+
+.image-list > :nth-child(3) {
+  background-image: url(./img/write.jpg);
+}
+
+.image-list > :nth-child(4) {
+  background-image: url(./img/webcamp.png);
+}
+
+.image-list > :nth-child(5) {
+  margin: 0 10px;
+  background-image: url(./img/talk.jpg);
+}
+
+.image-list > :last-child {
+  background-image: url(./img/webcamp-mother.png);
+}
