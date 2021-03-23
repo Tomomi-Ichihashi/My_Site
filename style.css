@@ -130,21 +130,21 @@ img {
 
 .strength-list {
   padding-bottom: 90px;
+  display: flex;
 }
 
 .strength {
   width: 320px;
   height: auto;
-  display: inline-block;
 }
 
-.strength > :nth-child(2) {
+.strength-list > :nth-child(2) {
   margin: 0 10px;
 }
 
 .strength span {
   font-size: 60px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .strength h6 {
@@ -198,3 +198,39 @@ img {
   border-radius: 125px;
 }
 
+/* Contact */
+.contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-information {
+  padding-bottom: 90px;
+  display: flex;
+}
+
+.information {
+  width: 400px;
+  text-align: center;
+}
+
+.sns span {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.twitter {
+  margin: auto 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ec715f;
+  text-align: center;
+  line-height: 60px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+}
