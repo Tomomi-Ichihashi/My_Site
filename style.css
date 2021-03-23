@@ -68,11 +68,18 @@ img {
 
 .name {
   padding-top: 90px;
-  padding-bottom: 8px;
   text-align: center;
   font-size: 32px;
   color: #000000;
-  border-bottom: solid 3px #ec715f;
+}
+
+.name::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
 }
 
 .description {
@@ -136,6 +143,7 @@ img {
 .strength {
   width: 320px;
   height: auto;
+  text-align: center;
 }
 
 .strength-list > :nth-child(2) {
@@ -144,7 +152,6 @@ img {
 
 .strength span {
   font-size: 60px;
-  text-align: center;
 }
 
 .strength h6 {
@@ -152,7 +159,6 @@ img {
   padding-bottom: 10px;
   font-size: 20px;
   color: #000000;
-  text-align: center;
 }
 
 /* 共通部分 */
@@ -211,18 +217,27 @@ img {
 
 .information {
   width: 400px;
-  text-align: center;
+}
+
+.contact-information > :first-child {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-information > :nth-child(2) {
+  width: 180px;
+  margin: 0 auto;
 }
 
 .sns span {
   font-size: 50px;
-  display: inline-block;
 }
 
 .twitter {
   margin: auto 20px;
 }
 
+/* footer */
 footer {
   height: 60px;
   background-color: #ec715f;
