@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header */
 header {
   height: 70px;
   background-color: #ec715f;
@@ -31,6 +33,7 @@ img {
   margin-right: auto;
 }
 
+/* main-visual */
 .main-visual {
   height: 650px;
   background-image: url(./img/mv.png);
@@ -53,7 +56,7 @@ img {
   font-size: 20px;
   color: #fafafa;
 }
-
+/* Portfolio */
 .main-content1 {
   background-color: #eceff1;
 }
@@ -63,7 +66,7 @@ img {
   margin: 0 auto;
 }
 
-.main-content1 h4 {
+.name {
   padding-top: 90px;
   padding-bottom: 8px;
   text-align: center;
@@ -72,7 +75,7 @@ img {
   border-bottom: solid 3px #ec715f;
 }
 
-.main-content1 p {
+.description {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -117,4 +120,43 @@ img {
 
 .image-list > :last-child {
   background-image: url(./img/webcamp-mother.png);
+}
+
+/* Feature */
+.feature {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.strength-list {
+  padding-bottom: 90px;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+  display: inline-block;
+}
+
+.strength > :nth-child(2){
+  margin: 0 10px;
+}
+
+.strength span {
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.strength h6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.strength p {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
